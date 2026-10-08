@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0f3"/><stop offset="100%" stop-color="#fbd0dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g6)"/>
+  <circle cx="300" cy="270" r="140" fill="#ffffff" fill-opacity="0.7"/>
+  <text x="300" y="250" font-family="'Playfair Display', serif" font-size="56" fill="#8c2e4b" text-anchor="middle">👑 💖</text>
+  <text x="300" y="300" font-family="'Dancing Script', cursive" font-size="36" fill="#b04b68" text-anchor="middle">Endless Love & Light</text>
+  <text x="300" y="430" font-family="'Playfair Display', serif" font-size="28" font-weight="600" fill="#4a1525" text-anchor="middle">Always Shining</text>
+  <text x="300" y="465" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" letter-spacing="2" fill="#8c3a53" text-anchor="middle">CELEBRATING SHRUTI</text>
+</svg>

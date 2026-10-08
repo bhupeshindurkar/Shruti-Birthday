@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0f3"/>
+      <stop offset="50%" stop-color="#fcdde5"/>
+      <stop offset="100%" stop-color="#fbe9df"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#f7c5d2" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fcdde5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7df94"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="25" flood-color="#8c2e4b" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+  <circle cx="400" cy="380" r="320" fill="url(#glowGrad)"/>
+
+  <!-- Aesthetic Circular Frame -->
+  <g filter="url(#softShadow)">
+    <circle cx="400" cy="400" r="280" fill="#ffffff" fill-opacity="0.75" stroke="url(#goldGrad)" stroke-width="3"/>
+  </g>
+
+  <!-- Elegant Decorative Botanical Silhouette -->
+  <path d="M 240,550 C 260,460 330,420 370,410 C 350,380 340,330 350,290 C 365,220 435,220 450,290 C 460,330 450,380 430,410 C 470,420 540,460 560,550 Z" fill="#e8a8b8" fill-opacity="0.35"/>
+
+  <!-- Crown / Star motif -->
+  <g transform="translate(400, 240) scale(1.2)">
+    <path d="M -30,20 L -15,0 L 0,15 L 15,0 L 30,20 Z" fill="url(#goldGrad)"/>
+    <circle cx="0" cy="-5" r="4" fill="#d4af37"/>
+    <circle cx="-25" cy="10" r="3" fill="#d4af37"/>
+    <circle cx="25" cy="10" r="3" fill="#d4af37"/>
+  </g>
+
+  <!-- Portrait Silhouette & Lettering -->
+  <circle cx="400" cy="350" r="75" fill="#d8849c" fill-opacity="0.25"/>
+  <path d="M 330,490 C 330,430 470,430 470,490 Z" fill="#d8849c" fill-opacity="0.3"/>
+
+  <!-- Delicate Monogram & Title -->
+  <text x="400" y="365" font-family="'Playfair Display', Georgia, serif" font-size="70" font-weight="600" fill="#6d1b36" text-anchor="middle">SL</text>
+  
+  <text x="400" y="560" font-family="'Dancing Script', cursive" font-size="44" font-weight="700" fill="#8c2545" text-anchor="middle">Shruti Lanjewar</text>
+  <text x="400" y="595" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" letter-spacing="4" font-weight="600" fill="#a44b67" text-anchor="middle">BIRTHDAY GIRL • 21 YEARS</text>
+  <text x="400" y="620" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" letter-spacing="3" font-weight="500" fill="#b07084" text-anchor="middle">22 OCTOBER 2026</text>
+
+  <!-- Sparkling Stars -->
+  <g fill="url(#goldGrad)">
+    <polygon points="280,310 284,320 294,324 284,328 280,338 276,328 266,324 276,320" />
+    <polygon points="510,320 514,328 522,332 514,336 510,344 506,336 498,332 506,328" />
+    <polygon points="340,210 343,217 350,220 343,223 340,230 337,223 330,220 337,217" />
+    <polygon points="460,210 463,217 470,220 463,223 460,230 457,223 450,220 457,217" />
+  </g>
+</svg>
