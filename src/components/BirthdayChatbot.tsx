@@ -206,7 +206,7 @@ export const BirthdayChatbot: React.FC = () => {
             <div className="flex items-center gap-1">
               <button
                 onClick={() => setIsOpen(false)}
-                className="p-1.5 rounded-full text-[#8c3a53] hover:text-[#451422] hover:bg-rose-100/60 transition-colors"
+                className="p-2 rounded-full bg-rose-50 hover:bg-rose-100 border border-rose-200/70 text-[#8c3a53] hover:text-[#451422] transition-all active:scale-95 cursor-pointer shadow-sm"
                 aria-label="Close Chat"
               >
                 <X className="w-5 h-5" />

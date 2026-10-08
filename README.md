@@ -10,6 +10,11 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Express](https://img.shields.io/badge/Express-Backend_API-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![Vite](https://img.shields.io/badge/Vite-Fast_Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Live Demo](https://img.shields.io/badge/Live_Website-shruti--birthday--21.vercel.app-ff4081?style=for-the-badge&logo=vercel&logoColor=white)](https://shruti-birthday-21.vercel.app)
+
+<p align="center">
+  🌐 <b>Live Production URL:</b> <a href="https://shruti-birthday-21.vercel.app" target="_blank"><b>https://shruti-birthday-21.vercel.app</b></a>
+</p>
 
 <p align="center">
   <b>Designed & Engineered with ❤️ by</b><br>

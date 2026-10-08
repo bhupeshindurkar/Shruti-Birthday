@@ -59,7 +59,7 @@ export const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose })
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm transition-opacity"
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-md transition-opacity"
       role="dialog"
       aria-modal="true"
       aria-labelledby="surprise-title"
@@ -76,7 +76,7 @@ export const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose })
         {/* Close Icon in corner */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-2 rounded-full text-[#8c3a53] hover:text-[#521325] hover:bg-rose-100/60 transition-colors"
+          className="absolute top-4 right-4 p-2.5 rounded-full bg-rose-50 hover:bg-rose-100 border border-rose-200/80 text-[#8c3a53] hover:text-[#521325] transition-all active:scale-95 cursor-pointer shadow-sm"
           aria-label="Close modal"
         >
           <X className="w-5 h-5" />
